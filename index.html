@@ -4,6 +4,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Table</title>
     <style>
+		body {
+		font-family: 'Arial', sans-serif;
+		background-color: #f9f9f9; /* Very light background */
+		color: #333; /* Dark text for readability */
+		margin: 0;
+		padding: 0;
+}
         table {
             width: 50%;
             border-collapse: collapse;
@@ -16,10 +23,46 @@
         }
         th {
             background-color: #f2f2f2;
-        }
+		}
+	.topnav {
+		background-color: #333;
+		overflow: hidden;
+	}
+
+	.topnav ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+	}
+
+	.topnav li {
+		padding: 14px 20px;
+	}
+
+	.topnav a {
+		color: white;
+		text-decoration: none;
+		font-size: 18px;
+		display: block;
+		text-align: center;
+	}
+
+	.topnav a:hover {
+		background-color: #ddd;
+		color: black;
+	}
     </style>
 </head>
 <body>
+	<div class="topnav">
+	  <a class="active" href="ITethics.html">IT Ethics</a>
+	  <a href="careerDev.html">Career Development </a>
+
+	
+	</div>
+
 <table>
     <caption>Profile Information</caption>
     <thead>
